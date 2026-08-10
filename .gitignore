@@ -27,3 +27,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+#.idea 目录
+.idea/
+
+# JetBrains iml 模块文件
+*.iml
