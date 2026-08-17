@@ -1,3 +1,5 @@
+package com.qigeng.code;
+
 /**
  * @author eageyren
  * @Description 选择排序，冒泡排序，插入排序

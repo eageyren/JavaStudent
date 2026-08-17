@@ -1,6 +1,8 @@
+package com.qigeng.code;
+
 /**
  * @author eageyren
- * @Description
+ * @Description 随机函数
  * @date 2026年08月05日下午7:13
  */
 public class code04 {
@@ -82,5 +84,19 @@ public class code04 {
     // 等概率返回1~7之间的数
     public static int g() {
         return f4() + 1;
+    }
+
+    // 已知，x会以固定概率返回0和1，但是x的内容不知道
+    public static int x() {
+        return Math.random() < 0.84 ? 0 : 1;
+    }
+
+    // 等概率返回0和1
+    public static int y() {
+        int ans = 0;
+        do {
+            ans = x();
+        } while (ans == x());
+        return ans;
     }
 }

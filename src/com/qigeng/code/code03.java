@@ -1,3 +1,5 @@
+package com.qigeng.code;
+
 /**
  * @author eageyren
  * @Description 数据结构 = 连续 + 跳转

@@ -1,3 +1,5 @@
+package com.qigeng.code;
+
 /**
  * @author eageyren
  * @Description 位运算
