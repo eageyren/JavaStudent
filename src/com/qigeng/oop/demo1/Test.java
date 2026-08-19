@@ -1,4 +1,4 @@
-package com.qigeng.oop;
+package com.qigeng.oop.demo1;
 
 /**
  * @author eageyren
